@@ -3,30 +3,27 @@
 #include <time.h>
 int game()
 {
+  const int MIN = 1;
   int MAX;
-  int MIN;
   int nombremyst;
   int entrer;
   char lettre;
   int compteur;
 
-  printf("quel es le niveau de difficulté que vous souhaitez?\n\n");
-  printf("1 - 1 à 100\n\n");
-  printf("2 - 1 à 1000\n\n");
-  printf("3 - 1 à 10000\n\n");
+  printf("choisissez votre niveau de difficulté \n\n");
+  printf("1 - entre 1 et 100\n\n");
+  printf("2 - entre 1 et 1000\n\n");
+  printf("3 - entre 1 et 10000\n\n");
   scanf("%d", &entrer);
   switch(entrer)
     {
     case 1:
-      MIN = 1;
       MAX = 100;
       break;
     case 2:
-      MIN = 1;
       MAX = 1000;
       break;
       case 3:
-      MIN = 1;
       MAX = 10000;
       break;
     default:
