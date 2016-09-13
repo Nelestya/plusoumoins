@@ -7,8 +7,9 @@ int game()
   int MAX;
   int nombremyst;
   int entrer;
-  char lettre;
+  int lettre;
   int compteur;
+  compteur = 0;
 
   printf("choisissez votre niveau de difficulté \n\n");
   printf("1 - entre 1 et 100\n\n");
